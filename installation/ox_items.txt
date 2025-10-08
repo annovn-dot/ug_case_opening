@@ -1,0 +1,82 @@
+['case_engine'] = {
+	label = 'Engine case to open',
+	weight = 1000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_engine.png',
+		event = 'ug_case_opening'
+	}
+},
+['case_transmission'] = {
+	label = 'Transmission case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_transmission.png',
+		event = 'ug_case_opening'
+	}
+},
+
+['case_suspension'] = {
+	label = 'Suspension case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_suspension.png',
+		event = 'ug_case_opening'
+	}
+},
+
+['case_brakes'] = {
+	label = 'Brakes case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_brakes.png',
+		event = 'ug_case_opening'
+	}
+},
+
+['case_turbo'] = {
+	label = 'Turbo case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_turbo.png',
+		event = 'ug_case_opening'
+	}
+},
+
+['case_performance'] = {
+	label = 'Performance case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_performance.png',
+		event = 'ug_case_opening'
+	}
+},
+
+['case_misc'] = {
+	label = 'Misc case to open',
+	weight = 25000,
+	stack = false,
+	close = true,
+	description = 'Open and get lucky, or not!',
+	client = {
+		image = 'case_misc.png',
+		event = 'ug_case_opening'
+	}
+},

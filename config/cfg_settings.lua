@@ -6,6 +6,7 @@ Config.Framework      = 'esx' -- 'esx' | 'qb' | 'qbox'
 -- Item icon URL template (OX default)
 -- '%s' will be replaced with the item name
 Config.IconPath       = 'nui://ox_inventory/web/images/%s.png'
+Config.CaseWebhook    = ''
 
 -- Which account to charge:
 -- ESX: 'money' or a named account (if you use them, e.g. 'bank')
@@ -42,3 +43,4 @@ Config.RarityColors   = {
 
 Config.NotifyPosition = 'top-right' -- or 'center-left', etc.
 Config.NotifyDuration = 5000
+

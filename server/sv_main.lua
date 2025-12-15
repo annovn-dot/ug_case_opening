@@ -10,8 +10,6 @@ local function notify(src, msg, typ)
     TriggerClientEvent('ug_case_opening:notify', src, msg, typ or 'info')
 end
 
--- ============= Discord Log Helpers =============
-
 local function GetPlayerIdentity(src)
     local name = GetPlayerName(src) or ('Player ' .. tostring(src))
     local identifiers = GetPlayerIdentifiers(src) or {}
@@ -61,8 +59,6 @@ local function SendCaseLog(title, description, color, fields, footer)
         ['Content-Type'] = 'application/json'
     })
 end
-
--- ============= Logic =============
 
 local function weightedChoice(items)
     local total = 0
@@ -398,3 +394,4 @@ RegisterNetEvent('ug_case_opening:confirmPurchase', function(caseKey, itemName, 
         )
     end
 end)
+
